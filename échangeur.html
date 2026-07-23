@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- pour le mobile, responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Acueille - NetClimat</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Important (icônes réseaux)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">NetClimat</div>
+
+    <div class="call">
+        <a href="tel:4505126205">📞450-512-6205</a>
+        <p>Appelez-nous maintenant</p>
+    </div>
+        
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html" class="active">Accueil</a></li>
+
+    <li class="dropdown">
+      <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+
+      <ul class="submenu">
+        <li><a href="climatiseur.html">Nettoyage climatiseur mural</a></li>
+        <li><a href="sécheuse.html">Nettoyage conduits de sécheuse</a></li>
+        <li><a href="échangeur.html">Nettoyage échangeur d'air</a></li>
+        <li><a href="ventilation.html">Nettoyage conduits de ventilation (fournaise)</a></li>
+        <li><a href="salle.html">Nettoyage ventilation salle de bain</a></li>
+  
+      </ul>
+    </li>
+
+    <li><a href="propos.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+</header>
+
+<section >
+    
+    <div class="slider">
+
+  <div class="slide active">
+    <img src="images/climatiseurmural.PNG">
+    <div class="content">
+      <h1>NETTOYAGE DE CLIMATISEUR MURAL</h1>
+      <p>Améliorez la qualité de l’air et l’efficacité énergétique de votre climatiseur mural.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/salle.PNG">
+    <div class="content">
+       <h1>NETTOYAGE VENTILATION SALLE DE BAIN </h1>
+       <p>Ventilation propre pour un air sain et sans humidité.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/echangeur.PNG">
+    <div class="content">
+      <h1>NETTOYAGE D'ECHANGEUR D'AIR</h1>
+      <p>Assurez une circulation d’air saine dans toute votre maison.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/secheuse.PNG">
+    <div class="content">
+      <h1>NETTOYAGE DE CONDUITS DE SÉCHEUSE</h1>
+      <p>Réduisez les risques d’incendie et améliorez le rendement de votre sécheuse.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/ventilation.PNG">
+    <div class="content">
+      <h1>NETTOYAGE DE CONDUITS DE VENTILATION</h1>
+      <p>Éliminez poussières, allergènes et bactéries de votre système de ventilation.</p>
+    </div>
+  </div>
+
+</div>
+</section><script src="script.js"></script>
+<!-- services horizontale -->
+<section class="services">
+    <h1 class="section-title">Nos services professionnels</h1>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <img src="images/thermopompe.PNG" alt="Nettoyage climatiseur mural">
+            <h3>Climatiseur mural</h3>
+            <p>Nettoyage en profondeur pour améliorer la qualité de l’air et le rendement.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/echangeur.PNG" alt="Nettoyage échangeur d’air">
+            <h3>Échangeur d’air</h3>
+            <p>Circulation d’air saine et élimination des allergènes.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/secheuse.PNG" alt="Nettoyage conduits de sécheuse">
+            <h3>Conduits de sécheuse</h3>
+            <p>Réduction des risques d’incendie et meilleure performance.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/ventilation.PNG" alt="Nettoyage conduits ventilation">
+            <h3>Conduits de ventilation (fournaise)</h3>
+            <p>Nettoyage complet des conduits pour un air plus propre.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/salledebain.PNG" alt="Nettoyage ventilation salle de bain">
+            <h3>Ventilation salle de bain</h3>
+            <p>Ventilation propre pour un air sain et sans humidité.</p>
+        </div>
+
+    </div>
+</section>
+<script src="script.js"></script>
+
+<!-- formulaire soumission -->
+<section class="contact-section">
+  <h1>Demande de soumission gratuite</h1>
+
+  <form action="#" method="post" class="contact-form">
+    
+    <div class="form-group">
+      <label>Nom complet *</label>
+      <input type="text" name="nom" placeholder="Votre nom" required>
+    </div>
+
+    <div class="form-group">
+      <label>Email *</label>
+      <input type="email" name="email" placeholder="Votre email" required>
+    </div>
+
+    <div class="form-group">
+      <label>Téléphone *</label>
+      <input type="tel" name="telephone" placeholder="Votre numéro" required>
+    </div>
+
+    <div class="form-group">
+      <label>Code postal *</label>
+      <input type="text" name="code" placeholder="Votre Code postal" required>
+    </div>
+
+    <div class="form-group">
+      <label>Type de service *</label>
+      <select name="service" required>
+        <option value="">-- Choisir un service --</option>
+        <option>Nettoyage climatiseur mural</option>
+        <option>Nettoyage conduits de sécheuse</option>
+        <option>Nettoyage échangeur d’air</option>
+        <option>Nettoyage conduits de ventilation (fournaise)</option>
+        <option>Nettoyage ventilation salle de bain</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Message</label>
+      <textarea name="message" rows="5" placeholder="Décrivez votre besoin, vos questions ou commentaires..."></textarea>
+    </div>
+
+    <button type="submit">Obtenir ma soumission gratuite</button>
+
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- LOGO -->
+    <div class="footer-col logo">
+      <img src="images/logo.jpeg" alt="NetClimat Logo">
+      <h2>NETCLIMAT</h2>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="footer-col">
+      <h3>NAVIGATION</h3>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="propos.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="footer-col">
+      <h3>SERVICES</h3>
+      <ul>
+        <li>Nettoyage climatiseur mural</li>
+        <li>Nettoyage échangeur d’air</li>
+        <li>Nettoyage conduits de sécheuse</li>
+        <li>Nettoyage conduits de ventilation (fournaise)</li>
+        <li>Nettoyage ventilation salle de bain</li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h3>CONTACT</h3>
+      <p>📞 450 512 6205</p>
+      <p>✉️ contact@netclimat.ca</p>
+
+      <!-- Réseaux sociaux -->
+      <div class="socials">
+        <a href="https://www.facebook.com/people/Netclimat/61558673861545/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/netclimat"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@netclimat?_r=1&_t=ZS-94rWOAo79DZ"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BAS FOOTER -->
+  <div class="footer-bottom">
+    <p>© NetClimat 2026 | Tous Droits Réservés</p>
+  </div>
+</footer>
+
+</body>
+</html>
